@@ -1,0 +1,233 @@
+/*
+ * Not eliminate, modify these lines. 
+ * Eliminates one of the boxes language not belonging to your knowledge.
+ *					-----------------------
+ * Non eliminare, modificare queste linee. 
+ * Elimina una delle caselle lingua non appartenenti alla vostra conoscenza.
+ *
+ * Material Design UiMaterial
+ * Copyright 2015-2016 | espoweb.com - Francesco Esposito
+ * espoweb.com di francesco esposito saverio è distribuito con Licenza Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale.
+ * Based on a work at http://espoweb.com/demo/uiMaterial/material-Design.css.
+ * Permessi ulteriori rispetto alle finalità della presente licenza possono essere disponibili presso http://espoweb.com/?a=licenze.
+ * Licensed by creativecommons
+ */
+ 
+.btn{
+    position: relative;
+    display: block;
+    min-width: 88px;
+    padding: 12px 20px;
+    height: 3em;
+    margin: 10px;
+    border: none;
+    outline: none;
+    letter-spacing: 0;
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 3px;
+    -webkit-user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -user-select: none;
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.12), 0 1px 2px 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.12), 0 1px 2px 0 rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.12), 0 1px 2px 0 rgba(0,0,0,0.24);
+}
+.btn.ui-orange:focus, .btn.ui-orange:active{
+	-webkit-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.15), 0 3px 6px 0 rgba(0,0,0,0.23);
+    -moz-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.15), 0 3px 6px 0 rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.15), 0 3px 6px 0 rgba(0,0,0,0.23); 
+	background-color: #ff6534;
+}
+
+/* RIPPLE COLOR */
+	/*color Text Button Ripple*/
+	.btn.btn-color-white{
+		color: #fff;
+	}
+	.btn.btn-color-orange{
+		color: #ff5722;
+	}
+	.btn.btn-color-teal{
+		color: #009688;
+	}
+	.btn.btn-color-lightBlue{
+		color: #4fc3f7;
+	}
+	.btn.btn-color-red{
+		color: #f44336;
+	}
+	.btn.btn-color-green{
+		color: #81c784;
+	}
+	/* Button Flat Ripple*/
+	.btn.btn-color-orangeFlat{
+		color: #ff5722;
+		border: 0px;
+		box-shadow: 0 1px 3px 0 rgba(0,0,0,0), 0 1px 2px 0 rgba(0,0,0,0);
+		-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0), 0 1px 2px 0 rgba(0,0,0,0);
+		-moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0), 0 1px 2px 0 rgba(0,0,0,0);
+	}
+	.btn.btn-color-orangeFlat:hover, .btn.btn-color-orangeFlat:focus{
+		background-color: rgba(153, 153, 153, 0.2);
+	}
+	.btn.btn-color-tealFlat{
+		color: #009688;
+		border: 0px;
+		box-shadow: 0 1px 3px 0 rgba(0,0,0,0), 0 1px 2px 0 rgba(0,0,0,0);
+		-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0), 0 1px 2px 0 rgba(0,0,0,0);
+		-moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0), 0 1px 2px 0 rgba(0,0,0,0);
+	}
+	.btn.btn-color-tealFlat:hover, .btn.btn-color-tealFlat:focus{
+		background-color: rgba(153, 153, 153, 0.2);
+	}
+	.btn.btn-color-lightBlueFlat{
+		color: #03a9f4;
+		border: 0px;
+		box-shadow: 0 1px 3px 0 rgba(0,0,0,0), 0 1px 2px 0 rgba(0,0,0,0);
+		-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0), 0 1px 2px 0 rgba(0,0,0,0);
+		-moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0), 0 1px 2px 0 rgba(0,0,0,0);
+	}
+	.btn.btn-color-lightBlueFlat:hover, .btn.btn-color-lightBlueFlat:focus{
+		background-color: rgba(153, 153, 153, 0.2);
+	}
+	.btn.btn-color-redFlat{
+		color: #f44336;
+		border: 0px;
+		box-shadow: 0 1px 3px 0 rgba(0,0,0,0), 0 1px 2px 0 rgba(0,0,0,0);
+		-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0), 0 1px 2px 0 rgba(0,0,0,0);
+		-moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0), 0 1px 2px 0 rgba(0,0,0,0);
+	}
+	.btn.btn-color-redFlat:hover, .btn.btn-color-redFlat:focus{
+		background-color: rgba(153, 153, 153, 0.2);
+	}
+	.btn.btn-color-greenFlat{
+		color: #4caf50;
+		border: 0px;
+		box-shadow: 0 1px 3px 0 rgba(0,0,0,0), 0 1px 2px 0 rgba(0,0,0,0);
+		-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0), 0 1px 2px 0 rgba(0,0,0,0);
+		-moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0), 0 1px 2px 0 rgba(0,0,0,0);
+	}
+	.btn.btn-color-greenFlat:hover, .btn.btn-color-greenFlat:focus{
+		background-color: rgba(153, 153, 153, 0.2);
+	}
+
+	/* orange Ripple */
+	.btn.ui-orange{
+		background-color: #ff5722;
+	}
+	.ui-animation-ripple.show.ripple-orange{
+		background-color: #E63A02;/*FF521A*/
+		color: #fff;
+	}
+	/* green teal Ripple */
+	.btn.ui-teal{
+		background-color: #009688;
+	}
+	.ui-animation-ripple.show.ripple-teal{
+		background-color: rgb(38,166,154);
+		color: #fff;
+	}
+	/* normale White Ripple */
+	.ui-animation-ripple.show.ripple-normal{
+		background-color: rgba(255, 255, 255, 0.15);
+		color: #fff;
+	}
+	/* transparent Ripple */
+	.btn.ui-transparent{
+		background-color: #transparent;
+	}
+	/* lightBlue Ripple */
+	.btn.ui-lightBlue{
+		background-color: #03a9f4;
+	}
+	.ui-animation-ripple.show.ripple-lightBlue{
+		background-color: #4fc3f7;
+		color: #fff;
+	}
+	/* red Ripple */
+	.btn.ui-red{
+		background-color: #f44336;
+	}
+	.ui-animation-ripple.show.ripple-red{
+		background-color: #e57373;
+		color: #fff;
+	}
+	/* green Ripple */
+	.btn.ui-green{
+		background-color: #4caf50;
+	}
+	.ui-animation-ripple.show.ripple-green{
+		background-color: #81c784;
+		color: #fff;
+	}
+	
+	
+/*ANIMATION RIPPLE*/
+.btn.circular{
+	position: relative;
+    overflow: hidden;
+    -webkit-transform: translatez(0);
+}.btn.circular, .ui-animation-ripple.show{
+    border-radius: 50%;
+	line-height: 55px;
+    font-size: 24px;
+    height: 56px;
+    margin: auto;
+    min-width: 56px;
+    width: 56px;
+    padding: 0;
+}
+.btn i:disabled {
+	position: relative;
+	top:0px;
+	left: 0px;
+	
+}
+.ui-animation-ripple{
+	position: absolute;
+    border-radius: 100%;
+    pointer-events: none;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.ui-animation-ripple.show{
+	-webkit-animation: ui-animation-ripple 0.8s ease-out;
+	animation: ui-animation-ripple 0.8s ease-out;
+	-o-animation: ui-animation-ripple 0.8s ease-out;
+}
+.ui-animation-ripple.show:active{
+	-webkit-animation: ui-animation-ripple 0.8s ease-out;
+	animation: ui-animation-ripple 0.8s ease-out;
+	-o-animation: ui-animation-ripple 0.8s ease-out;
+}
+
+@-webkit-keyframes ui-animation-ripple{
+    to {
+		-webkit-transform: scale(1.5);
+		-ms-transform: scale(1.5);
+		-o-transform: scale(1.5);
+		transform: scale(1.5);
+		opacity: 0;
+    }
+}
+@keyframes ui-animation-ripple{
+    to {
+		-webkit-transform: scale(1.5);
+		transform: scale(1.5);
+		-ms-transform: scale(1.5);
+		-o-transform: scale(1.5);
+		opacity: 0;
+    }
+}
