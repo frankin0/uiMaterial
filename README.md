@@ -1,6 +1,6 @@
 # uiMaterial
 
-Light Material Design Espoweb.
+Minimal Material Design Espoweb.
 Follow the demo below for the various types of colors and buttons.
 
 An example the button 
